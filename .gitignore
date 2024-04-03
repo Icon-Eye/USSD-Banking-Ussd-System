@@ -1,0 +1,14 @@
+#files to be ignored when pushing to gitlab rep
+
+*.pyc
+*.pyo
+*.sw*
+*.db
+*.egg
+
+#db
+db.sqlite3
+
+app/__pycache__
+app/migrations
+bankUssdApp/__pycache__
